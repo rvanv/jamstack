@@ -1,11 +1,13 @@
-const vibes = [
-    `let's go!`,
-    `go go gadget`,
-    `rescue rangers`,
-    `another saying`,
-    `dancing in the dark`
-];
+ // Bank some good vibe options
+ const vibes = [
+    "...and you are awesome!",
+    "...have a wonderful day!",
+    "...and you've got this!",
+    "...and so is this puppy! 🐶"
+  ];
 
-var vibe = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
+   // choose a random good vibe
+  var vibe = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
 
-document.querySelector(".vibe").append(vibe);
+  // display a good vibe
+  document.querySelector(".vibe").append(vibe);
